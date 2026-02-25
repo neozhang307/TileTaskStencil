@@ -1,0 +1,53 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# LLVM/MLIR generated
+*.inc
+*.gen
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+*.egg
+
+# CUDA
+*.cubin
+*.ptx
+*.fatbin
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.kate-swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compilation database
+compile_commands.json
